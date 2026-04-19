@@ -96,10 +96,10 @@ export default function Waitlist() {
             </svg>
           </div>
           <h2 className="text-4xl md:text-5xl font-NeueMontreal font-medium text-secondry mb-4">
-            You're on the list.
+            You&apos;re on the list.
           </h2>
           <p className="text-gray-500 font-NeueMontreal text-lg max-w-md mx-auto mb-10">
-            Thank you for sharing. We use this to understand the people joining early and prioritize access accordingly. We'll be in touch soon.
+            Thank you for sharing. We use this to understand the people joining early and prioritize access accordingly. We&apos;ll be in touch soon.
           </p>
           <button
             onClick={() => router.push("/")}

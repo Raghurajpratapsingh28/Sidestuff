@@ -22,7 +22,7 @@ export const Step2: React.FC<Step2Props> = ({ data, updateData, onNext, onBack }
   return (
     <div className="animate-fade-in">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-NeueMontreal font-medium text-secondry mb-3">
-        Tell us where you're coming from.
+        Tell us where you&apos;re coming from.
       </h2>
       <p className="text-gray-500 font-NeueMontreal text-lg mb-8">
         We use this to understand the people joining early and prioritise access accordingly.

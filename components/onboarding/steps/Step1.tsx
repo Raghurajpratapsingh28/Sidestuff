@@ -82,7 +82,7 @@ export const Step1: React.FC<Step1Props> = ({ data, updateData, onNext }) => {
   return (
     <div className="animate-fade-in">
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-NeueMontreal font-medium text-secondry mb-3">
-        Let's start with the basics.
+        Let&apos;s start with the basics.
       </h2>
       <p className="text-gray-500 font-NeueMontreal text-lg mb-8">
         This takes about 3 minutes. Your answers shape how we build Sidestuff.
@@ -133,7 +133,7 @@ export const Step1: React.FC<Step1Props> = ({ data, updateData, onNext }) => {
         {isOtpSent && !data.isEmailVerified && (
           <div className="pl-4 border-l-2 border-[#102c26] animate-fade-in my-4">
             <p className="text-gray-500 text-sm font-NeueMontreal mb-2">
-              We've sent a 6-digit code to <strong>{data.email}</strong>
+              We&apos;ve sent a 6-digit code to <strong>{data.email}</strong>
             </p>
             <TextInput
               label="Enter OTP"
