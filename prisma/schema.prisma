@@ -1,0 +1,63 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// OTP verification records — short-lived, cleaned up after verification
+model OtpVerification {
+  id        String   @id @default(cuid())
+  email     String
+  otp       String
+  expiresAt DateTime
+  verified  Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([email])
+  @@map("otp_verifications")
+}
+
+// Full waitlist submission — one per email
+model WaitlistEntry {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+
+  // Step 1 — Basics
+  fullName String
+  email    String @unique
+  country  String
+  role     String
+
+  // Step 2 — Background
+  jobTitle     String
+  company      String?
+  portfolioUrl String?
+  experience   String
+
+  // Step 3 — Goals
+  problem         String
+  recommendReason String?
+  fear            String?
+  tools           String[]  @default([])
+  otherTool       String?
+  timing          String
+
+  // Step 4 — Work
+  workType          String
+  startupInterests  String[] @default([])
+  contributionGoals String[] @default([])
+  anythingElse      String?
+
+  // Step 5 — Final
+  source       String
+  interview    String
+  pay          String
+  referralCode String?
+
+  @@map("waitlist_entries")
+}

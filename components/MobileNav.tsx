@@ -36,7 +36,7 @@ export default function MobileNav() {
 				<div className="flex items-center gap-3">
 					{/* CTA visible on mobile bar */}
 					<a
-						href="#waitlist"
+						href="waitlist"
 						className="font-NeueMontreal text-[12px] font-medium px-4 py-2 rounded-full bg-[#212121] text-white"
 					>
 						Join waitlist
@@ -92,7 +92,7 @@ export default function MobileNav() {
 								</button>
 
 								<a
-									href="#waitlist"
+									href="waitlist"
 									onClick={closeMenu}
 									className="text-[12vw] leading-none font-FoundersGrotesk uppercase font-bold tracking-[-0.04em] text-background text-left hover:pl-4 transition-all duration-300"
 								>

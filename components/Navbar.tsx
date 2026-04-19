@@ -59,7 +59,7 @@ export default function Navbar() {
 				{/* Right — CTA */}
 				<div className="w-[20%] flex justify-end">
 					<a
-						href="#waitlist"
+						href="waitlist"
 						className="font-NeueMontreal text-[14px] font-medium px-5 py-2.5 rounded-full bg-[#212121] text-white hover:bg-[#102c26] transition-all duration-300"
 					>
 						Join waitlist

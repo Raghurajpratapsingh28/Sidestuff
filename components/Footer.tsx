@@ -7,7 +7,7 @@ export default function Footer() {
 		{ id: 1, title: "How it works", href: "#how-it-works" },
 		{ id: 2, title: "Features", href: "#features" },
 		{ id: 3, title: "For Investors", href: "#investors" },
-		{ id: 4, title: "Join Waitlist", href: "#waitlist", highlighted: true },
+		{ id: 4, title: "Join Waitlist", href: "waitlist", highlighted: true },
 	];
 
 	const companyLinks = [

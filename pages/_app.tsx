@@ -11,17 +11,19 @@ export default function App({
 	pageProps: any;
 	router: any;
 }) {
+	const isWaitlist = router.pathname.startsWith('/waitlist');
+
 	return (
 		<>
-			<Navbar />
+			{!isWaitlist && <Navbar />}
 			<AnimatePresence mode="wait">
 				<Component
 					key={router.route}
 					{...pageProps}
 				/>
 			</AnimatePresence>
-			<Footer />
-			<ScrollToTop />
+			{!isWaitlist && <Footer />}
+			{!isWaitlist && <ScrollToTop />}
 		</>
 	);
 }

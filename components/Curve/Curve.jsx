@@ -8,12 +8,16 @@ const routes = {
 	"/": "Home",
 	"/careers": "Careers",
 	"/contact": "Contact Us",
+	"/waitlist": "Waitlist",
 };
 
 // Helper function to get page name from route
 const getPageName = (route) => {
 	if (routes[route]) {
 		return routes[route];
+	}
+	if (route.startsWith("/waitlist")) {
+		return "Waitlist";
 	}
 	// Fallback: extract page name from route path
 	// e.g., /services/web-development -> "Web Development"
