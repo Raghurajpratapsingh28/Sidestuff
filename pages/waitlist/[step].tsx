@@ -130,8 +130,8 @@ export default function Waitlist() {
   return (
     <>
       <Head>
-        <title>Join the Waitlist | Sidestuff</title>
-        <meta name="description" content="Join the Sidestuff waitlist. Built for founders, contributors, and investors." />
+        <title>Join the Waitlist | Snypyr</title>
+        <meta name="description" content="Join the Snypyr waitlist. Built for founders, contributors, and investors." />
       </Head>
 
       <Curve backgroundColor="#f1f1f1">

@@ -52,7 +52,7 @@ export const Step5: React.FC<Step5Props> = ({ data, updateData, onSubmit, onBack
 
       <div className="space-y-4">
         <RadioCardGroup
-          label="How did you hear about Sidestuff?"
+          label="How did you hear about Snypyr?"
           name="source"
           options={sourceOptions}
           value={data.source || ""}

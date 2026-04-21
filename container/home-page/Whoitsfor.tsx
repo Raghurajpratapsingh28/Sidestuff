@@ -70,7 +70,7 @@ export default function Whoitsfor() {
 					variants={fade}
 					className="text-center text-[#212121]/65 font-NeueMontreal text-[15px] sm:text-[14px] xm:text-[13px] leading-[1.7] max-w-[480px] mx-auto mb-16 sm:mb-12 xm:mb-10"
 				>
-					This is not a developer platform with a &ldquo;non-tech&rdquo; afterthought. Every function is a first-class citizen on Sidestuff.
+					This is not a developer platform with a &ldquo;non-tech&rdquo; afterthought. Every function is a first-class citizen on Snypyr.
 				</motion.p>
 
 				{/* 3×2 Role grid */}

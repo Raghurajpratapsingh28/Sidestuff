@@ -80,7 +80,7 @@ export const serviceProcessItems = [
       phase: "04. Phase",
       name: "Traction Discovery",
       src: phase4,
-      review: "Investors use Sidestuff to discover startups based on execution data rather than hype, identifying high-growth opportunities early.",
+      review: "Investors use Snypyr to discover startups based on execution data rather than hype, identifying high-growth opportunities early.",
       button: "read"
    },
    {
@@ -120,7 +120,7 @@ export const achiveItems = [
 export const homeFaqItems = [
    {
       id: 1,
-      question: "Is Sidestuff free to join?",
+      question: "Is Snypyr free to join?",
       answer: "Yes. Joining the waitlist and getting early access costs nothing. Founding cohort members get platform access locked in before any paid tiers are introduced. We'll be transparent about the model well in advance of any changes.",
       category: "Membership"
    },
@@ -133,7 +133,7 @@ export const homeFaqItems = [
    {
       id: 3,
       question: "Can I join as both a founder and a contributor?",
-      answer: "Absolutely. Sidestuff is designed for the modern cross-functional builder. You can list your own startup while also contributing your expertise to other teams in the ecosystem to build your footprint.",
+      answer: "Absolutely. Snypyr is designed for the modern cross-functional builder. You can list your own startup while also contributing your expertise to other teams in the ecosystem to build your footprint.",
       category: "Roles"
    },
    {
@@ -145,13 +145,13 @@ export const homeFaqItems = [
    {
       id: 5,
       question: "Is this only for tech startups?",
-      answer: "No. While many start with tech, Sidestuff is built for any startup that needs execution. We believe early-stage ventures in every industry—from D2C to Biotech—benefit from showing transparent execution history.",
+      answer: "No. While many start with tech, Snypyr is built for any startup that needs execution. We believe early-stage ventures in every industry—from D2C to Biotech—benefit from showing transparent execution history.",
       category: "Ecosystem"
    },
    {
       id: 6,
       question: "What makes this different from a hackathon or accelerator?",
-      answer: "Hackathons are snapshots; accelerators are mentorship cohorts. Sidestuff is the infrastructure for long-term execution. We provide the tools for teams to form, track work over months, and build a permanent record of achievement that sticks with you.",
+      answer: "Hackathons are snapshots; accelerators are mentorship cohorts. Snypyr is the infrastructure for long-term execution. We provide the tools for teams to form, track work over months, and build a permanent record of achievement that sticks with you.",
       category: "Difference"
    }
 ];

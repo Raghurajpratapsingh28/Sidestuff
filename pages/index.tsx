@@ -14,11 +14,11 @@ export default function Home() {
 
 	// SEO Metadata
 	const metadata = {
-		title: "Sidestuff | Live Startup Ecosystem & Execution Engine",
-		description: "Sidestuff is a platform where startups aren't just listed — they're actively built by real teams. Connect founders, contributors, and investors through real work and execution.",
+		title: "Snypyr | Live Startup Ecosystem & Execution Engine",
+		description: "Snypyr is a platform where startups aren't just listed — they're actively built by real teams. Connect founders, contributors, and investors through real work and execution.",
 		canonical: SITE_CONFIG.url,
 		keywords: [
-			"Sidestuff",
+			"Snypyr",
 			"startup ecosystem",
 			"startup building platform",
 			"execution-led traction",
@@ -35,15 +35,15 @@ export default function Home() {
 		]),
 		generateFAQSchema([
 			{
-				question: "What is Sidestuff?",
-				answer: "Sidestuff is a platform where startups aren’t just listed — they’re actively built by real teams across roles like development, marketing, design, analytics, and business."
+				question: "What is Snypyr?",
+				answer: "Snypyr is a platform where startups aren’t just listed — they’re actively built by real teams across roles like development, marketing, design, analytics, and business."
 			},
 			{
-				question: "How does Sidestuff connect founders and investors?",
+				question: "How does Snypyr connect founders and investors?",
 				answer: "It connects founders, contributors, and investors in one ecosystem where execution, collaboration, and real work define visibility and opportunity."
 			},
 			{
-				question: "How are startups evaluated on Sidestuff?",
+				question: "How are startups evaluated on Snypyr?",
 				answer: "Instead of resumes or pitch decks, people and startups are evaluated based on what they’re actually building and contributing."
 			}
 		])
@@ -56,7 +56,7 @@ export default function Home() {
 				<Hero />
 				{/* <div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
 					<Marquee
-						title="we are Sidestuff"
+						title="we are Snypyr"
 						className="pb-[50px] lg:pb-[40px] md:pb-[30px] sm:pb-[20px] xm:pb-[15px] text-[540px] leading-[330px] lg:text-[380px] lg:leading-[240px] md:text-[300px] md:leading-[160px] sm:text-[230px] sm:leading-[140px] xm:text-[130px] xm:leading-[80px]"
 					/>
 				</div> */}

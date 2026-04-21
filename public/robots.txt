@@ -1,5 +1,5 @@
-# Robots.txt for Sidestuff
-# https://sidestuff.io/robots.txt
+# Robots.txt for Snypyr
+# https://Snypyr.io/robots.txt
 
 # Allow all crawlers
 User-agent: *
@@ -27,4 +27,4 @@ Allow: /
 # Crawl-delay: 10
 
 # Sitemap location
-Sitemap: https://sidestuff.io/sitemap.xml
+Sitemap: https://Snypyr.io/sitemap.xml

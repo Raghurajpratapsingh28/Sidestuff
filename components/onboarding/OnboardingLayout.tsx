@@ -21,8 +21,8 @@ export const OnboardingLayout: React.FC<OnboardingLayoutProps> = ({
         
         <div>
           <div className="mb-8">
-            {/* Logo placeholder - replace with actual Sidestuff logo if needed */}
-            <h1 onClick={() => router.push("/")} className="text-3xl cursor-pointer lg:text-4xl font-FoundersGrotesk tracking-wide text-white font-bold">Sidestuff.</h1>
+            {/* Logo placeholder - replace with actual Snypyr logo if needed */}
+            <h1 onClick={() => router.push("/")} className="text-3xl cursor-pointer lg:text-4xl font-FoundersGrotesk tracking-wide text-white font-bold">Snypyr.</h1>
           </div>
           
           <div className="hidden lg:block mt-8">

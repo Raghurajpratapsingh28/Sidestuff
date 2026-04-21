@@ -11,16 +11,16 @@ import {
 export default function CareersPage() {
 
 	const metadata = {
-		title: "Careers | Join Sidestuff",
-		description: "Join our mission to build the future of Web and AI. Explore career opportunities at Sidestuff and help us create visionary digital solutions.",
+		title: "Careers | Join Snypyr",
+		description: "Join our mission to build the future of Web and AI. Explore career opportunities at Snypyr and help us create visionary digital solutions.",
 		canonical: `${SITE_CONFIG.url}/careers`,
 		keywords: [
 			"careers",
-			"jobs at Sidestuff",
+			"jobs at Snypyr",
 			"software engineering jobs",
 			"AI research jobs",
 			"join our team",
-			"work at Sidestuff"
+			"work at Snypyr"
 		]
 	};
 
