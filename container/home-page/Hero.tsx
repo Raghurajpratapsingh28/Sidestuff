@@ -60,7 +60,7 @@ export default function Hero() {
 					className="mb-[48px] sm:mb-[36px] xm:mb-[28px]"
 				>
 					<Link
-						href="/contact"
+						href="/waitlist"
 						className="group inline-flex items-center gap-[10px] sm:gap-[8px] xm:gap-[6px] px-[32px] py-[16px] sm:px-[26px] sm:py-[13px] xm:px-[22px] xm:py-[12px] bg-[#212121] text-white font-NeueMontreal font-medium rounded-full transition-all duration-300 ease-out hover:bg-[#333] hover:shadow-[0_8px_32px_rgba(0,0,0,0.22)] hover:scale-[1.03] active:scale-[0.97] text-[16px] sm:text-[15px] xm:text-[14px]"
 					>
 						Request early access

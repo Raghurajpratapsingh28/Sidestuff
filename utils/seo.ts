@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
   name: "Snypyr",
-  url: "https://Snypyr.io",
+  url: "https://Snypyr.com",
   description: "Snypyr is a live startup ecosystem where founders, contributors, and investors connect to build real products. Execution and collaboration define visibility, not pitch decks.",
   ogImage: "/og-image.jpg",
   twitterHandle: "@Snypyr",

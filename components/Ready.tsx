@@ -23,17 +23,17 @@ export default function Ready() {
 			ref={container}>
 			<div className="w-full h-full flex justify-center gap-[50px] items-center flex-col">
 				<div className="flex flex-col gap-[10px]">
-					<h1 className="text-[290px] leading-[230px] lg:text-[220px] lg:leading-[170px] md:text-[180px] md:leading-[140px] sm:text-[120px] sm:leading-[90px] xm:text-[80px] xm:leading-[60px] tracking-[-2.5px] text-center font-bold font-FoundersGrotesk text-white uppercase pointer-events-none">
+					<h1 className="text-[170px] leading-[140px] lg:text-[150px] lg:leading-[120px] md:text-[110px] md:leading-[90px] sm:text-[80px] sm:leading-[70px] xm:text-[60px] xm:leading-[50px] tracking-[-2.5px] text-center font-bold font-FoundersGrotesk text-white uppercase pointer-events-none">
 						<TextMask>{phrase}</TextMask>
 					</h1>
 				</div>
 				<div className="flex flex-col  items-center gap-[10px]">
 					<div className="flex items-center justify-between bg-white cursor-pointer rounded-full group">
 						<RoundButton
-							href="mailto:hello@Snypyr.io"
+							href="mailto:hello@Snypyr.com"
 							title="Join waitlist"
-							className="bg-white text-black"
-							bgcolor="#f1f1f1"
+							className="bg-white group-hover:bg-[#102c26]"
+							bgcolor="#212121"
 							style={{ color: "#000" }}
 						/>
 					</div>
@@ -41,12 +41,12 @@ export default function Ready() {
 					<div className="flex items-center justify-between bg-transparent cursor-pointer rounded-full group border border-white/20">
 						<Link
 							className="xl:text-[18px] xl:leading-[28px] text-[14px] leading-[24px] uppercase font-normal font-NeueMontreal"
-							href="mailto:hello@Snypyr.io">
+							href="mailto:hello@Snypyr.com">
 							<Rounded
 								className="py-[6px]"
 								backgroundColor="#f1f1f1">
 								<p className="z-10 px-[10px] ml-[15px] py-[6px] group-hover:text-black text-white">
-									hello@Snypyr.io
+									hello@Snypyr.com
 								</p>
 								<div className="bg-white group-hover:bg-[#102c26] text-black group-hover:text-white p-[10px] rounded-full scale-[0.3] mr-[10px] group-hover:scale-[0.9] transition-all z-10 transform duration-[0.3s] ease-[.215,.61,.355,1]">
 									<ArrowUpRight

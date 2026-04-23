@@ -1,7 +1,7 @@
 import { LinkHover, TextMask } from "@/animation";
 
 export default function Footer() {
-	const phrase = ["SIDE", "STUFF"];
+	const phrase = ["SNYPYR"];
 	
 	const productLinks = [
 		{ id: 1, title: "How it works", href: "#how-it-works" },
@@ -13,7 +13,7 @@ export default function Footer() {
 	const companyLinks = [
 		{ id: 1, title: "About", href: "#about" },
 		{ id: 2, title: "Careers", href: "/careers" },
-		{ id: 3, title: "Contact", href: "mailto:hello@Snypyr.io" },
+		{ id: 3, title: "Contact", href: "mailto:hello@Snypyr.com" },
 	];
 
 	const socialLinks = [
@@ -100,8 +100,8 @@ export default function Footer() {
 								Get in touch:
 							</h1>
 							<LinkHover
-								title="hello@Snypyr.io"
-								href="mailto:hello@Snypyr.io"
+								title="hello@Snypyr.com"
+								href="mailto:hello@Snypyr.com"
 								className="before:h-[1px] after:h-[1px] text-3xl md:text-2xl sm:text-2xl xm:text-xl font-medium font-NeueMontreal before:bottom-[-3px] after:bottom-[-3px]"
 							/>
 						</div>
