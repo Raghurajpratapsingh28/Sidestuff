@@ -35,12 +35,12 @@ export default function MobileNav() {
 
 				<div className="flex items-center gap-3">
 					{/* CTA visible on mobile bar */}
-					<a
-						href="waitlist"
+					<Link
+						href="/waitlist"
 						className="font-NeueMontreal text-[12px] font-medium px-4 py-2 rounded-full bg-[#212121] text-white"
 					>
 						Join waitlist
-					</a>
+					</Link>
 					<HiOutlineMenuAlt4
 						onClick={() => setToggle(true)}
 						className="text-3xl cursor-pointer text-black"
@@ -84,20 +84,21 @@ export default function MobileNav() {
 								transition={{ delay: 0.3, duration: 0.6, ease: [0.76, 0, 0.24, 1] }}
 								className="flex flex-col gap-8"
 							>
-								<button
-									onClick={() => scrollToSection("how-it-works")}
-									className="text-[12vw] leading-none font-FoundersGrotesk uppercase font-bold tracking-[-0.04em] text-background text-left hover:pl-4 transition-all duration-300"
-								>
-									How it works
-								</button>
+							<Link
+								href="/#how-it-works"
+								onClick={closeMenu}
+								className="text-[12vw] leading-none font-FoundersGrotesk uppercase font-bold tracking-[-0.04em] text-background text-left hover:pl-4 transition-all duration-300 block"
+							>
+								How it works
+							</Link>
 
-								<a
-									href="waitlist"
-									onClick={closeMenu}
-									className="text-[12vw] leading-none font-FoundersGrotesk uppercase font-bold tracking-[-0.04em] text-background text-left hover:pl-4 transition-all duration-300"
-								>
-									Join waitlist
-								</a>
+							<Link
+								href="/waitlist"
+								onClick={closeMenu}
+								className="text-[12vw] leading-none font-FoundersGrotesk uppercase font-bold tracking-[-0.04em] text-background text-left hover:pl-4 transition-all duration-300 block"
+							>
+								Join waitlist
+							</Link>
 							</motion.div>
 						</div>
 

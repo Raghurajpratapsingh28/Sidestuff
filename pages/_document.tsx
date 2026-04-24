@@ -18,9 +18,12 @@ export default function Document() {
         {/* Theme Color */}
         <meta name="theme-color" content="#000000" />
         
-        {/* Verification Tags (add when available) */}
-        {/* <meta name="google-site-verification" content="your-verification-code" /> */}
-        {/* <meta name="msvalidate.01" content="your-verification-code" /> */}
+        {/* PWA Manifest */}
+        <link rel="manifest" href="/manifest.json" />
+        
+        {/* Verification Tags — replace content with real codes */}
+        <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+        <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
       </Head>
       <body>
         <Main />

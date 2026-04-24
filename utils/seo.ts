@@ -89,11 +89,11 @@ export function generateOrganizationSchema() {
       "areaServed": "Worldwide",
       "availableLanguage": ["English"]
     },
-    aggregateRating: {
+    /* aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
       reviewCount: "127"
-    }
+    } */
   };
 }
 
@@ -134,6 +134,26 @@ export function generateBreadcrumbSchema(items: Array<{ name: string; url: strin
       position: index + 1,
       name: item.name,
       item: item.url
+    }))
+  };
+}
+
+/**
+ * HowTo Schema Generator
+ */
+export function generateHowToSchema(steps: Array<{ name: string; text: string; url?: string }>, howToName: string, howToDescription: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: howToName,
+    description: howToDescription,
+    totalTime: "P1D",
+    step: steps.map((step, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+      url: step.url || `${SITE_CONFIG.url}/#how-it-works`,
     }))
   };
 }
@@ -293,11 +313,11 @@ export function generateLocalBusinessSchema() {
     },
     priceRange: "$$$",
     areaServed: "Worldwide",
-    aggregateRating: {
+    /* aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
       reviewCount: "127"
-    }
+    } */
   };
 }
 

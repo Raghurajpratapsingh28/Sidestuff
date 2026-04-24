@@ -8,7 +8,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 
 export default function Ready() {
 	const container = useRef(null);
-	const phrase = ["Ready", "to build", "what's next?"];
+	const phrase = ["Join", "the Snypyr", "waitlist"];
 
 	const { scrollYProgress } = useScroll({
 		target: container,
@@ -23,9 +23,9 @@ export default function Ready() {
 			ref={container}>
 			<div className="w-full h-full flex justify-center gap-[50px] items-center flex-col">
 				<div className="flex flex-col gap-[10px]">
-					<h1 className="text-[170px] leading-[140px] lg:text-[150px] lg:leading-[120px] md:text-[110px] md:leading-[90px] sm:text-[80px] sm:leading-[70px] xm:text-[60px] xm:leading-[50px] tracking-[-2.5px] text-center font-bold font-FoundersGrotesk text-white uppercase pointer-events-none">
+					<h2 className="text-[170px] leading-[140px] lg:text-[150px] lg:leading-[120px] md:text-[110px] md:leading-[90px] sm:text-[80px] sm:leading-[70px] xm:text-[60px] xm:leading-[50px] tracking-[-2.5px] text-center font-bold font-FoundersGrotesk text-white uppercase pointer-events-none">
 						<TextMask>{phrase}</TextMask>
-					</h1>
+					</h2>
 				</div>
 				<div className="flex flex-col  items-center gap-[10px]">
 					<div className="flex items-center justify-between bg-white cursor-pointer rounded-full group">
@@ -33,7 +33,7 @@ export default function Ready() {
 							href="mailto:hello@Snypyr.com"
 							title="Join waitlist"
 							className="bg-white group-hover:bg-[#102c26]"
-							bgcolor="#212121"
+							bgcolor="#f1f1f1"
 							style={{ color: "#000" }}
 						/>
 					</div>

@@ -47,13 +47,12 @@ export default function Navbar() {
 
 				{/* Center — Single nav link */}
 				<div className="flex justify-center w-[60%]">
-					<a
-						href="#how-it-works"
-						onClick={(e) => scrollToSection(e, "how-it-works")}
+					<Link
+						href="/#how-it-works"
 						className="font-NeueMontreal text-[15px] text-[#212121]/60 hover:text-[#212121] transition-colors duration-300 cursor-pointer"
 					>
 						How it works
-					</a>
+					</Link>
 				</div>
 
 				{/* Right — CTA */}

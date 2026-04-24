@@ -36,13 +36,13 @@ export default function QuestionAnswer() {
 									</p>
 								</div>
 								<div className="w-auto sm:hidden xm:hidden">
-									<motion.h3
+									<motion.span
 										className={`text-lg font-NeueMontreal text-[#212121] ${
 											activeAccordion === item.id ? "opacity-100" : "opacity-0"
 										} transition-opacity duration-300`}
 									>
 										Question:
-									</motion.h3>
+									</motion.span>
 								</div>
 							</div>
 							<div className="w-[50%] flex items-center justify-between">
@@ -79,15 +79,15 @@ export default function QuestionAnswer() {
 									<div className="w-full flex justify-between padding-x pb-8 sm:flex-col xm:flex-col gap-10">
 										<div className="w-[20%] sm:hidden xm:hidden" />
 										
-										<div className="w-[30%] sm:w-full xm:w-full flex flex-col gap-4">
-											<h4 className="font-NeueMontreal text-sm uppercase opacity-50">Topic:</h4>
+								<div className="w-[30%] sm:w-full xm:w-full flex flex-col gap-4">
+										<p className="font-NeueMontreal text-sm uppercase opacity-50">Topic:</p>
 											<span className="px-4 py-2 border border-[#212121] w-fit rounded-full text-sm uppercase font-NeueMontreal hover:bg-[#212121] hover:text-white transition-colors duration-300 cursor-default">
 												{item.category}
 											</span>
 										</div>
 
-										<div className="w-[40%] sm:w-full xm:w-full flex flex-col gap-6">
-											<h4 className="font-NeueMontreal text-sm uppercase opacity-50">Answer:</h4>
+								<div className="w-[40%] sm:w-full xm:w-full flex flex-col gap-6">
+										<p className="font-NeueMontreal text-sm uppercase opacity-50">Answer:</p>
 											<p className="font-NeueMontreal text-xl leading-relaxed text-[#212121]">
 												{item.answer}
 											</p>

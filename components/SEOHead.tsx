@@ -39,6 +39,8 @@ export default function SEOHead({ metadata, schema }: SEOHeadProps) {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metadata.description} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content={SITE_CONFIG.name} />
       <meta property="og:locale" content="en_US" />
 
@@ -48,8 +50,13 @@ export default function SEOHead({ metadata, schema }: SEOHeadProps) {
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={metadata.description} />
       <meta property="twitter:image" content={ogImage} />
+      <meta property="twitter:image:alt" content={`${title} - ${SITE_CONFIG.name}`} />
       <meta name="twitter:creator" content={SITE_CONFIG.twitterHandle} />
       <meta name="twitter:site" content={SITE_CONFIG.twitterHandle} />
+
+      {/* Hreflang */}
+      <link rel="alternate" hrefLang="en-us" href={canonical} />
+      <link rel="alternate" hrefLang="x-default" href={canonical} />
 
       {/* Additional Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />

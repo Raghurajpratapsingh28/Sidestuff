@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import { Curve } from "@/components";
+import SEOHead from "@/components/SEOHead";
 import { 
   OnboardingLayout, 
   Step1, 
@@ -10,6 +11,7 @@ import {
   Step5 
 } from "@/components/onboarding";
 import { useRouter } from "next/router";
+import { generateBreadcrumbSchema, SITE_CONFIG } from "@/utils/seo";
 
 export default function Waitlist() {
   const router = useRouter();
@@ -127,12 +129,38 @@ export default function Waitlist() {
     }
   };
 
+  const metadata = {
+    title: "Join the Waitlist | Snypyr",
+    description: "Join the Snypyr waitlist. Built for founders, contributors, and investors who believe execution matters more than pitch decks.",
+    canonical: `${SITE_CONFIG.url}/waitlist`,
+    keywords: [
+      "Snypyr waitlist",
+      "join startup waitlist",
+      "early access startup platform",
+      "founder team building",
+      "startup contributor platform"
+    ]
+  };
+
+  const schemas = [
+    generateBreadcrumbSchema([
+      { name: "Home", url: SITE_CONFIG.url },
+      { name: "Waitlist", url: `${SITE_CONFIG.url}/waitlist` }
+    ])
+  ];
+
   return (
     <>
-      <Head>
-        <title>Join the Waitlist | Snypyr</title>
-        <meta name="description" content="Join the Snypyr waitlist. Built for founders, contributors, and investors." />
-      </Head>
+      {isSubmitted ? (
+        <Head>
+          <title>Thank You | Snypyr Waitlist</title>
+          <meta name="description" content="You are on the Snypyr waitlist. We will be in touch soon." />
+          <meta name="robots" content="noindex, nofollow" />
+          <link rel="canonical" href={`${SITE_CONFIG.url}/waitlist`} />
+        </Head>
+      ) : (
+        <SEOHead metadata={metadata} schema={schemas} />
+      )}
 
       <Curve backgroundColor="#f1f1f1">
         {isSubmitted ? (

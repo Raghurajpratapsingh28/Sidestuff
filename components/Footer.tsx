@@ -17,9 +17,9 @@ export default function Footer() {
 	];
 
 	const socialLinks = [
-		{ id: 1, title: "X (Twitter)", href: "#" },
-		{ id: 2, title: "LinkedIn", href: "#" },
-		{ id: 3, title: "Instagram", href: "#" },
+		{ id: 1, title: "X (Twitter)", href: "https://x.com/Snypyr", external: true },
+		{ id: 2, title: "LinkedIn", href: "https://linkedin.com/company/Snypyr", external: true },
+		{ id: 3, title: "Instagram", href: "https://instagram.com/Snypyr", external: true },
 	];
 
 	return (
@@ -34,22 +34,23 @@ export default function Footer() {
 					
 					<div className="max-w-[400px] sm:max-w-full xm:max-w-full">
 						<p className="font-NeueMontreal font-medium text-secondry text-lg mb-4 sm:mb-3 xm:mb-3 uppercase tracking-wider">
-							Execution-led startup signal.
+							Snypyr — Where founders build teams, contributors gain experience, and investors discover execution.
 						</p>
 						<p className="paragraph font-NeueMontreal text-secondry opacity-50 mb-10 sm:mb-8 xm:mb-6 leading-relaxed">
-							Snypyr is a live execution engine for early-stage startups. We connect founders, contributors, and investors through real-time milestone tracking and transparent signal.
+							Snypyr is a live startup ecosystem and execution engine. Connect with real teams, track milestones, and turn work into visible signal for founders, contributors, and investors.
 						</p>
 						
 						<div className="flex flex-col gap-y-[10px]">
-							<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest mb-2">
+							<h3 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest mb-2">
 								Follow us:
-							</h1>
+							</h3>
 							<div className="flex flex-col gap-y-[10px]">
 								{socialLinks.map((item) => (
 									<LinkHover
 										key={item.id}
 										title={item.title}
 										href={item.href}
+										external={item.external}
 										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium text-secondry capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
 									/>
 								))}
@@ -63,9 +64,9 @@ export default function Footer() {
 					<div>
 						<div className="flex justify-between pt-[50px] sm:pt-[30px] xm:pt-[20px] sm:flex-col xm:flex-col sm:gap-10 xm:gap-8">
 							<div>
-								<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest pb-[20px]">
+								<h3 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest pb-[20px]">
 									Product:
-								</h1>
+								</h3>
 								<div className="flex flex-col gap-y-[10px]">
 									{productLinks.map((item) => (
 										<LinkHover
@@ -79,9 +80,9 @@ export default function Footer() {
 							</div>
 							
 							<div>
-								<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest pb-[20px]">
+								<h3 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest pb-[20px]">
 									Company:
-								</h1>
+								</h3>
 								<div className="flex flex-col gap-y-[10px]">
 									{companyLinks.map((item) => (
 										<LinkHover
@@ -96,9 +97,9 @@ export default function Footer() {
 						</div>
 
 						<div className="pt-[100px] sm:pt-16 xm:pt-12 flex flex-col gap-y-[10px]">
-							<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest">
+							<h3 className="paragraph font-medium font-NeueMontreal text-secondry opacity-30 uppercase text-xs tracking-widest">
 								Get in touch:
-							</h1>
+							</h3>
 							<LinkHover
 								title="hello@Snypyr.com"
 								href="mailto:hello@Snypyr.com"
@@ -115,29 +116,29 @@ export default function Footer() {
 					<p className="text-xl font-black uppercase tracking-tight text-[#212121]" style={{ fontFamily: "'Unbounded', sans-serif" }}>
 						Snypyr
 					</p>
-					<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-						© 2026 Snypyr. All rights reserved.
-					</h1>
+						<p className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
+							© 2026 Snypyr. All rights reserved.
+						</p>
 				</div>
 				
 				<div className="flex gap-[40px] sm:flex-col xm:flex-col sm:gap-6 xm:gap-4 items-end sm:items-start xm:items-start text-right sm:text-left xm:text-left">
-					<div className="flex gap-10 sm:gap-4 xm:gap-4 sm:flex-col xm:flex-col">
-						<LinkHover
-							title="Privacy Policy"
-							href="#"
-							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
-						/>
-						<LinkHover
-							title="Terms of Use"
-							href="#"
-							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
-						/>
-						<LinkHover
-							title="Cookie Policy"
-							href="#"
-							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
-						/>
-					</div>
+						<div className="flex gap-10 sm:gap-4 xm:gap-4 sm:flex-col xm:flex-col">
+							<LinkHover
+								title="Privacy Policy"
+								href="/privacy-policy"
+								className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
+							/>
+							<LinkHover
+								title="Terms of Use"
+								href="/terms-of-use"
+								className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
+							/>
+							<LinkHover
+								title="Cookie Policy"
+								href="/cookie-policy"
+								className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
+							/>
+						</div>
 					<div>
 						<p className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
 							Built with ❤ in Vancouver

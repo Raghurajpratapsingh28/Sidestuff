@@ -9,7 +9,7 @@ export default function Hero() {
 					Join Our <br /> Mission
 				</h1>
 				<p className="sub-paragraph font-NeueMontreal text-secondry mt-[30px] max-w-[600px]">
-					We are always looking for visionary engineers, designers, and innovators to build the future of Web, Blockchain, and AI.
+					We are building the live startup ecosystem where founders, contributors, and investors connect through real execution. If you are driven by building products that matter, we want to hear from you.
 				</p>
 			</div>
 		</section>

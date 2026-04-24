@@ -73,7 +73,7 @@ export default function ForInvestors() {
 						className="lg:w-[50%] xl:w-[50%]"
 					>
 						<p className="font-NeueMontreal text-white/65 text-[18px] sm:text-[16px] xm:text-[15px] leading-[1.75] max-w-[520px]">
-							Stop evaluating startups on narrative alone. On Snypyr, you see team composition, contribution depth, execution velocity, and milestone progress — all before a single email is sent.
+							Stop evaluating startups on narrative alone. On Snypyr, you see team composition, contribution depth, execution velocity, and milestone progress — all before a single email is sent. This is early-stage deal flow built on signal, not noise.
 						</p>
 					</motion.div>
 					<motion.div
@@ -85,7 +85,7 @@ export default function ForInvestors() {
 						className="lg:w-[50%] xl:w-[50%]"
 					>
 						<p className="font-NeueMontreal text-white/50 text-[18px] sm:text-[16px] xm:text-[15px] leading-[1.75] max-w-[520px]">
-							Early-stage deal flow based on signal, not noise.
+							For venture capital, seed stage due diligence, and angel investors who want to see execution before the pitch.
 						</p>
 					</motion.div>
 				</div>
