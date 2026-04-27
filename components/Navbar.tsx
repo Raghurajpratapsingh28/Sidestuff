@@ -40,7 +40,7 @@ export default function Navbar() {
 							className="text-xl font-black uppercase tracking-tight text-[#212121] transition-all duration-300 group-hover:tracking-wider"
 							style={{ fontFamily: "'Unbounded', sans-serif" }}
 						>
-							Crossgaze
+							Snypyr
 						</span>
 					</Link>
 				</div>

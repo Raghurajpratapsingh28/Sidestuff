@@ -130,11 +130,11 @@ export default function Waitlist() {
   };
 
   const metadata = {
-    title: "Join the Waitlist | Crossgaze",
-    description: "Join the Crossgaze waitlist. Built for founders, contributors, and investors who believe execution matters more than pitch decks.",
+    title: "Join the Waitlist | Snypyr",
+    description: "Join the Snypyr waitlist. Built for founders, contributors, and investors who believe execution matters more than pitch decks.",
     canonical: `${SITE_CONFIG.url}/waitlist`,
     keywords: [
-      "Crossgaze waitlist",
+      "Snypyr waitlist",
       "join startup waitlist",
       "early access startup platform",
       "founder team building",
@@ -153,8 +153,8 @@ export default function Waitlist() {
     <>
       {isSubmitted ? (
         <Head>
-          <title>Thank You | Crossgaze Waitlist</title>
-          <meta name="description" content="You are on the Crossgaze waitlist. We will be in touch soon." />
+          <title>Thank You | Snypyr Waitlist</title>
+          <meta name="description" content="You are on the Snypyr waitlist. We will be in touch soon." />
           <meta name="robots" content="noindex, nofollow" />
           <link rel="canonical" href={`${SITE_CONFIG.url}/waitlist`} />
         </Head>

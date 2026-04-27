@@ -54,7 +54,7 @@ export default function ForInvestors() {
 					<p className="font-NeueMontreal font-medium text-white text-[32px] sm:text-[24px] xm:text-[22px] md:text-[36px] lg:text-[2.4vw] xl:text-[2.6vw] leading-[1.2] tracking-tight">
 						&ldquo;Most platforms give you a vague pitch and a prayer.{" "}
 						<span className="text-white/35">
-							Crossgaze gives you a window into the work.&rdquo;
+							Snypyr gives you a window into the work.&rdquo;
 						</span>
 					</p>
 				</motion.div>
@@ -73,7 +73,7 @@ export default function ForInvestors() {
 						className="lg:w-[50%] xl:w-[50%]"
 					>
 						<p className="font-NeueMontreal text-white/65 text-[18px] sm:text-[16px] xm:text-[15px] leading-[1.75] max-w-[520px]">
-							Stop evaluating startups on narrative alone. On Crossgaze, you see team composition, contribution depth, execution velocity, and milestone progress — all before a single email is sent. This is early-stage deal flow built on signal, not noise.
+							Stop evaluating startups on narrative alone. On Snypyr, you see team composition, contribution depth, execution velocity, and milestone progress — all before a single email is sent. This is early-stage deal flow built on signal, not noise.
 						</p>
 					</motion.div>
 					<motion.div

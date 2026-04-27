@@ -15,11 +15,11 @@ export default function Home() {
 
 	// SEO Metadata
 	const metadata = {
-		title: "Crossgaze | Live Startup Ecosystem & Execution Engine",
-		description: "Crossgaze is a live startup ecosystem where startups are actively built by real teams. Join the waitlist to connect founders, contributors, and investors through execution, collaboration, and real work.",
+		title: "Snypyr | Live Startup Ecosystem & Execution Engine",
+		description: "Snypyr is a live startup ecosystem where startups are actively built by real teams. Join the waitlist to connect founders, contributors, and investors through execution, collaboration, and real work.",
 		canonical: SITE_CONFIG.url,
 		keywords: [
-			"Crossgaze",
+			"Snypyr",
 			"startup ecosystem",
 			"startup building platform",
 			"execution-led traction",
@@ -41,15 +41,15 @@ export default function Home() {
 		]),
 		generateFAQSchema([
 			{
-				question: "What is Crossgaze?",
-				answer: "Crossgaze is a live startup ecosystem where startups aren’t just listed — they’re actively built by real teams across roles like development, marketing, design, analytics, and business."
+				question: "What is Snypyr?",
+				answer: "Snypyr is a live startup ecosystem where startups aren’t just listed — they’re actively built by real teams across roles like development, marketing, design, analytics, and business."
 			},
 			{
-				question: "How does Crossgaze connect founders and investors?",
+				question: "How does Snypyr connect founders and investors?",
 				answer: "It connects founders, contributors, and investors in one ecosystem where execution, collaboration, and real work define visibility and opportunity."
 			},
 			{
-				question: "How are startups evaluated on Crossgaze?",
+				question: "How are startups evaluated on Snypyr?",
 				answer: "Instead of resumes or pitch decks, people and startups are evaluated based on what they’re actually building and contributing."
 			}
 		]),
@@ -58,7 +58,7 @@ export default function Home() {
 			{ name: "Contributors apply by role", text: "Developers, marketers, analysts, designers, and business contributors request to join based on what the startup actually needs. Every role counts." },
 			{ name: "Work happens in the open", text: "Milestones are tracked. Contributions are logged. Execution builds each startup's visibility — not follower counts or pitch scores." },
 			{ name: "Investors see what's real", text: "Deal flow surfaces through activity. Investors watch teams execute, assess team depth, and reach out when the signal is right." }
-		], "How Crossgaze Works", "A four-step process to build startups through real execution and collaboration on the Crossgaze platform.")
+		], "How Snypyr Works", "A four-step process to build startups through real execution and collaboration on the Snypyr platform.")
 	];
 
 	return (
@@ -69,7 +69,7 @@ export default function Home() {
 					<Hero />
 					{/* <div className="w-full bg-marquee z-10 relative rounded-t-[20px] padding-y">
 						<Marquee
-							title="we are Crossgaze"
+							title="we are Snypyr"
 							className="pb-[50px] lg:pb-[40px] md:pb-[30px] sm:pb-[20px] xm:pb-[15px] text-[540px] leading-[330px] lg:text-[380px] lg:leading-[240px] md:text-[300px] md:leading-[160px] sm:text-[230px] sm:leading-[140px] xm:text-[130px] xm:leading-[80px]"
 						/>
 					</div> */}

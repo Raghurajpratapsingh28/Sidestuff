@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-user}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
-      POSTGRES_DB: ${POSTGRES_DB:-Crossgaze}
+      POSTGRES_DB: ${POSTGRES_DB:-Snypyr}
     volumes:
       - db_data:/var/lib/postgresql/data
     ports:
@@ -14,7 +14,7 @@ services:
       test:
         [
           "CMD-SHELL",
-          "pg_isready -U ${POSTGRES_USER:-user} -d ${POSTGRES_DB:-Crossgaze}",
+          "pg_isready -U ${POSTGRES_USER:-user} -d ${POSTGRES_DB:-Snypyr}",
         ]
       interval: 5s
       timeout: 5s
@@ -29,7 +29,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      DATABASE_URL: postgresql://${POSTGRES_USER:-user}:${POSTGRES_PASSWORD:-password}@db:5432/${POSTGRES_DB:-Crossgaze}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-user}:${POSTGRES_PASSWORD:-password}@db:5432/${POSTGRES_DB:-Snypyr}
       NODE_ENV: production
       SMTP_HOST: ${SMTP_HOST}
       SMTP_PORT: ${SMTP_PORT}

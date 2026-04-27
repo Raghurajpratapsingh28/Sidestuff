@@ -1,14 +1,14 @@
 /**
- * SEO Utilities for Crossgaze
+ * SEO Utilities for Snypyr
  * Provides reusable functions for metadata, schema, and SEO optimization
  */
 
 export const SITE_CONFIG = {
-  name: "Crossgaze",
-  url: "https://Crossgaze.com",
-  description: "Crossgaze is a live startup ecosystem where founders, contributors, and investors connect to build real products. Execution and collaboration define visibility, not pitch decks.",
+  name: "Snypyr",
+  url: "https://Snypyr.com",
+  description: "Snypyr is a live startup ecosystem where founders, contributors, and investors connect to build real products. Execution and collaboration define visibility, not pitch decks.",
   ogImage: "/og-image.jpg",
-  twitterHandle: "@Crossgaze",
+  twitterHandle: "@Snypyr",
   foundingYear: "2026",
   email: "[EMAIL_ADDRESS]",
   phone: "+1-contact-us", // Generic professional placeholder
@@ -53,7 +53,7 @@ export function generateMetadata(page: PageMetadata) {
 }
 
 /**
- * Organization Schema for Crossgaze
+ * Organization Schema for Snypyr
  */
 export function generateOrganizationSchema() {
   return {
@@ -76,10 +76,10 @@ export function generateOrganizationSchema() {
       addressCountry: SITE_CONFIG.address.country
     },
     sameAs: [
-      "https://x.com/Crossgaze",
-      "https://linkedin.com/company/Crossgaze",
-      "https://github.com/Crossgaze",
-      "https://instagram.com/Crossgaze"
+      "https://x.com/Snypyr",
+      "https://linkedin.com/company/Snypyr",
+      "https://github.com/Snypyr",
+      "https://instagram.com/Snypyr"
     ],
     contactPoint: {
       "@type": "ContactPoint",

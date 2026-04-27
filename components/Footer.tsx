@@ -1,7 +1,7 @@
 import { LinkHover, TextMask } from "@/animation";
 
 export default function Footer() {
-	const phrase = ["Crossgaze"];
+	const phrase = ["Snypyr"];
 	
 	const productLinks = [
 		{ id: 1, title: "How it works", href: "#how-it-works" },
@@ -13,13 +13,13 @@ export default function Footer() {
 	const companyLinks = [
 		{ id: 1, title: "About", href: "#about" },
 		{ id: 2, title: "Careers", href: "/careers" },
-		{ id: 3, title: "Contact", href: "mailto:hello@Crossgaze.com" },
+		{ id: 3, title: "Contact", href: "mailto:hello@Snypyr.com" },
 	];
 
 	const socialLinks = [
-		{ id: 1, title: "X (Twitter)", href: "https://x.com/Crossgaze", external: true },
-		{ id: 2, title: "LinkedIn", href: "https://linkedin.com/company/Crossgaze", external: true },
-		{ id: 3, title: "Instagram", href: "https://instagram.com/Crossgaze", external: true },
+		{ id: 1, title: "X (Twitter)", href: "https://x.com/Snypyr", external: true },
+		{ id: 2, title: "LinkedIn", href: "https://linkedin.com/company/Snypyr", external: true },
+		{ id: 3, title: "Instagram", href: "https://instagram.com/Snypyr", external: true },
 	];
 
 	return (
@@ -34,10 +34,10 @@ export default function Footer() {
 					
 					<div className="max-w-[400px] sm:max-w-full xm:max-w-full">
 						<p className="font-NeueMontreal font-medium text-secondry text-lg mb-4 sm:mb-3 xm:mb-3 uppercase tracking-wider">
-							Crossgaze — Where founders build teams, contributors gain experience, and investors discover execution.
+							Snypyr — Where founders build teams, contributors gain experience, and investors discover execution.
 						</p>
 						<p className="paragraph font-NeueMontreal text-secondry opacity-50 mb-10 sm:mb-8 xm:mb-6 leading-relaxed">
-							Crossgaze is a live startup ecosystem and execution engine. Connect with real teams, track milestones, and turn work into visible signal for founders, contributors, and investors.
+							Snypyr is a live startup ecosystem and execution engine. Connect with real teams, track milestones, and turn work into visible signal for founders, contributors, and investors.
 						</p>
 						
 						<div className="flex flex-col gap-y-[10px]">
@@ -101,8 +101,8 @@ export default function Footer() {
 								Get in touch:
 							</h3>
 							<LinkHover
-								title="hello@Crossgaze.com"
-								href="mailto:hello@Crossgaze.com"
+								title="hello@Snypyr.com"
+								href="mailto:hello@Snypyr.com"
 								className="before:h-[1px] after:h-[1px] text-3xl md:text-2xl sm:text-2xl xm:text-xl font-medium font-NeueMontreal before:bottom-[-3px] after:bottom-[-3px]"
 							/>
 						</div>
@@ -114,10 +114,10 @@ export default function Footer() {
 			<div className="w-full pt-[80px] sm:pt-[40px] xm:pt-[30px] pb-[30px] flex justify-between sm:flex-col xm:flex-col sm:gap-[30px] xm:gap-[20px] items-end sm:items-start xm:items-start border-t border-secondry/10 mt-20 sm:mt-12 xm:mt-10">
 				<div className="flex flex-col gap-4 xm:gap-2">
 					<p className="text-xl font-black uppercase tracking-tight text-[#212121]" style={{ fontFamily: "'Unbounded', sans-serif" }}>
-						Crossgaze
+						Snypyr
 					</p>
 						<p className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-							© 2026 Crossgaze. All rights reserved.
+							© 2026 Snypyr. All rights reserved.
 						</p>
 				</div>
 				

@@ -4,4 +4,4 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
 
-Sitemap: https://Crossgaze.com/sitemap.xml
+Sitemap: https://Snypyr.com/sitemap.xml
