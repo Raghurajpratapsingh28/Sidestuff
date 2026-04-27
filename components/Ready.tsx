@@ -8,7 +8,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 
 export default function Ready() {
 	const container = useRef(null);
-	const phrase = ["Join", "the Snypyr", "waitlist"];
+	const phrase = ["Join", "the Crossgaze", "waitlist"];
 
 	const { scrollYProgress } = useScroll({
 		target: container,
@@ -30,7 +30,7 @@ export default function Ready() {
 				<div className="flex flex-col  items-center gap-[10px]">
 					<div className="flex items-center justify-between bg-white cursor-pointer rounded-full group">
 						<RoundButton
-							href="mailto:hello@Snypyr.com"
+							href="mailto:hello@Crossgaze.com"
 							title="Join waitlist"
 							className="bg-white group-hover:bg-[#102c26]"
 							bgcolor="#f1f1f1"
@@ -41,12 +41,12 @@ export default function Ready() {
 					<div className="flex items-center justify-between bg-transparent cursor-pointer rounded-full group border border-white/20">
 						<Link
 							className="xl:text-[18px] xl:leading-[28px] text-[14px] leading-[24px] uppercase font-normal font-NeueMontreal"
-							href="mailto:hello@Snypyr.com">
+							href="mailto:hello@Crossgaze.com">
 							<Rounded
 								className="py-[6px]"
 								backgroundColor="#f1f1f1">
 								<p className="z-10 px-[10px] ml-[15px] py-[6px] group-hover:text-black text-white">
-									hello@Snypyr.com
+									hello@Crossgaze.com
 								</p>
 								<div className="bg-white group-hover:bg-[#102c26] text-black group-hover:text-white p-[10px] rounded-full scale-[0.3] mr-[10px] group-hover:scale-[0.9] transition-all z-10 transform duration-[0.3s] ease-[.215,.61,.355,1]">
 									<ArrowUpRight

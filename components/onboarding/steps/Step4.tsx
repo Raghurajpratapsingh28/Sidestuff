@@ -47,7 +47,7 @@ export const Step4: React.FC<Step4Props> = ({ data, updateData, onNext, onBack }
 
       <div className="space-y-4">
         <RadioCardGroup
-          label="What type of work are you looking to do on Snypyr?"
+          label="What type of work are you looking to do on Crossgaze?"
           name="workType"
           options={workTypeOptions}
           value={data.workType || ""}

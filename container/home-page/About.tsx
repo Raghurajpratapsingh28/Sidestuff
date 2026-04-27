@@ -82,7 +82,7 @@ export default function About() {
 									The current system rewards ideas.
 								</h2>
 								<h2 className="font-NeueMontreal font-medium text-white tracking-tight text-[42px] sm:text-[30px] xm:text-[26px] md:text-[48px] lg:text-[3vw] xl:text-[3.2vw] leading-[1.1] mt-2">
-									Snypyr rewards execution.
+									Crossgaze rewards execution.
 								</h2>
 								<p className="text-white/55 font-NeueMontreal text-[17px] sm:text-[15px] xm:text-[14px] leading-[1.75] mt-8 sm:mt-6 xm:mt-5 max-w-[460px]">
 									Every piece of the startup ecosystem is broken in the same way — signal is missing, and noise fills the gap.
@@ -158,7 +158,7 @@ export default function About() {
 									Built on contribution.
 								</h2>
 								<p className="text-[#212121]/65 font-NeueMontreal text-[17px] sm:text-[15px] xm:text-[14px] leading-[1.75] mt-8 sm:mt-6 xm:mt-5 max-w-[460px]">
-									Snypyr connects every role that startups actually need — and gives visibility to those who show up and do the work.
+									Crossgaze connects every role that startups actually need — and gives visibility to those who show up and do the work.
 								</p>
 
 								{/* Quote */}

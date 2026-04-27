@@ -53,7 +53,7 @@ export { default as insights3 } from './insights3.jpeg';
 export { default as latest1 } from './latest1.png';
 export { default as latest2 } from './latest2.jpeg';
 
-// Snypyr-team
+// Crossgaze-team
 export { default as backgroundAbout } from './background-about.jpeg';
 export { default as Team1 } from './team1.jpeg';
 export { default as Team2 } from './team2.jpeg';
