@@ -1,4 +1,4 @@
-# Snypyr
+# Katagoge
 
 Marketing + waitlist site. Next.js 14 (Pages Router) + Prisma + PostgreSQL, with SMTP-based email OTP.
 

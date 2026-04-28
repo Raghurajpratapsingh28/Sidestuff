@@ -19,7 +19,7 @@ export default function NoVacancies() {
 					<div className="mt-[40px] flex justify-center">
 						<RoundButton
 							title="Connect with us"
-							href="mailto:info@Snypyr.com"
+							href="mailto:info@Katagoge.com"
 							bgcolor="#212121"
 						/>
 					</div>

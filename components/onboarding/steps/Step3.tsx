@@ -43,14 +43,14 @@ export const Step3: React.FC<Step3Props> = ({ data, updateData, onNext, onBack }
 
       <div className="space-y-4">
         <TextArea
-          label="What's the one problem you're hoping Snypyr solves for you?"
+          label="What's the one problem you're hoping Katagoge solves for you?"
           placeholder="Describe the gap you're facing right now..."
           value={data.problem || ""}
           onChange={(e) => updateData({ problem: e.target.value })}
         />
 
         <TextArea
-          label="What would make you recommend Snypyr to someone else?"
+          label="What would make you recommend Katagoge to someone else?"
           placeholder="What outcome would make it worth recommending..."
           value={data.recommendReason || ""}
           onChange={(e) => updateData({ recommendReason: e.target.value })}
@@ -82,7 +82,7 @@ export const Step3: React.FC<Step3Props> = ({ data, updateData, onNext, onBack }
         )}
 
         <RadioCardGroup
-          label="How soon are you looking to use Snypyr?"
+          label="How soon are you looking to use Katagoge?"
           name="timing"
           options={timingOptions}
           value={data.timing || ""}

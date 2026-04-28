@@ -29,7 +29,7 @@ export default function MobileNav() {
 						className="text-xl font-black uppercase tracking-tight text-[#212121] transition-all duration-300 group-hover:tracking-wider"
 						style={{ fontFamily: "'Unbounded', sans-serif" }}
 					>
-						Snypyr
+						Katagoge
 					</span>
 				</Link>
 
@@ -65,7 +65,7 @@ export default function MobileNav() {
 									className="text-xl font-black uppercase tracking-tight text-background transition-all duration-300 group-hover:tracking-wider"
 									style={{ fontFamily: "'Unbounded', sans-serif" }}
 								>
-									Snypyr
+									Katagoge
 								</span>
 							</Link>
 							<div
@@ -110,7 +110,7 @@ export default function MobileNav() {
 							className="padding-x pb-10"
 						>
 							<p className="text-white/20 text-[10px] uppercase tracking-[0.2em] font-NeueMontreal">
-								© {new Date().getFullYear()} Snypyr. All rights reserved.
+								© {new Date().getFullYear()} Katagoge. All rights reserved.
 							</p>
 						</motion.div>
 					</motion.div>

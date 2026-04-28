@@ -1,7 +1,7 @@
 {
-  "name": "Snypyr",
-  "short_name": "Snypyr",
-  "description": "Snypyr is a live startup ecosystem where founders, contributors, and investors connect through real execution.",
+  "name": "Katagoge",
+  "short_name": "Katagoge",
+  "description": "Katagoge is a live startup ecosystem where founders, contributors, and investors connect through real execution.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f1f1f1",

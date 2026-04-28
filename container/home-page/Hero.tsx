@@ -49,7 +49,7 @@ export default function Hero() {
 					transition={{ duration: 0.65, delay: 0.22, ease: [0.22, 1, 0.36, 1] }}
 					className="text-center font-NeueMontreal text-[#212121]/70 mb-[36px] sm:mb-[28px] xm:mb-[24px] text-[18px] leading-[28px] lg:text-[17px] lg:leading-[27px] md:text-[16px] md:leading-[26px] sm:text-[15px] sm:leading-[24px] xm:text-[14px] xm:leading-[22px] max-w-[580px] sm:max-w-[90%] xm:max-w-[100%]"
 				>
-					Snypyr is a live ecosystem where startups are actively built by real teams. We connect founders, contributors, and investors through execution, collaboration, and real work — not pitch decks.
+					Katagoge is a live ecosystem where startups are actively built by real teams. We connect founders, contributors, and investors through execution, collaboration, and real work — not pitch decks.
 				</motion.p>
 
 				{/* CTA */}
@@ -88,7 +88,7 @@ export default function Hero() {
 					>
 						<Image
 							src="/dashboard-preview.png"
-							alt="Snypyr platform dashboard preview"
+							alt="Katagoge platform dashboard preview"
 							fill
 							sizes="(max-width: 400px) 100vw, (max-width: 768px) 100vw, 1100px"
 							className="object-cover object-top"

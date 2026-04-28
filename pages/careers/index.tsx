@@ -11,16 +11,16 @@ import {
 export default function CareersPage() {
 
 	const metadata = {
-			title: "Careers | Join Snypyr",
-			description: "Join Snypyr and help build the live startup ecosystem where founders, contributors, and investors connect through real execution. Explore career opportunities.",
+			title: "Careers | Join Katagoge",
+			description: "Join Katagoge and help build the live startup ecosystem where founders, contributors, and investors connect through real execution. Explore career opportunities.",
 		canonical: `${SITE_CONFIG.url}/careers`,
 		keywords: [
 			"careers",
-			"jobs at Snypyr",
+			"jobs at Katagoge",
 				"startup ecosystem jobs",
 				"early stage startup careers",
-				"join Snypyr team",
-				"work at Snypyr"
+				"join Katagoge team",
+				"work at Katagoge"
 		]
 	};
 

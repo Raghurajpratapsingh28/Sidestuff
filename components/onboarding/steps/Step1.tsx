@@ -85,7 +85,7 @@ export const Step1: React.FC<Step1Props> = ({ data, updateData, onNext }) => {
         Let&apos;s start with the basics.
       </h2>
       <p className="text-gray-500 font-NeueMontreal text-lg mb-8">
-        This takes about 3 minutes. Your answers shape how we build Snypyr.
+        This takes about 3 minutes. Your answers shape how we build Katagoge.
       </p>
 
       <div className="space-y-4">
