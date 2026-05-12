@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 
 const steps = [
 	{
-		title: "A founder creates a startup",
-		desc: "Not a listing. A live project with defined roles, goals, and a team structure. The startup exists to be built — not to collect followers.",
+		title: "Founders build their operating system",
+		desc: "Startups use Katagoge to run their daily operations, define goals, and structure their execution. It's the infrastructure where real work happens.",
 	},
 	{
-		title: "Contributors apply by role",
-		desc: "Developers, marketers, analysts, designers, and business contributors request to join based on what the startup actually needs. Every role counts.",
+		title: "Teams execute on milestones",
+		desc: "Every sprint, commit, and operational win is logged. The platform tracks progress natively, capturing the velocity of the startup without manual reporting.",
 	},
 	{
-		title: "Work happens in the open",
-		desc: "Milestones are tracked. Contributions are logged. Execution builds each startup's visibility — not follower counts or pitch scores.",
+		title: "The intelligence layer analyzes traction",
+		desc: "Our systems measure execution velocity, team efficiency, and milestone completion to build a high-signal profile of the startup's health and momentum.",
 	},
 	{
-		title: "Investors see what's real",
-		desc: "Deal flow surfaces through activity. Investors watch teams execute, assess team depth, and reach out when the signal is right.",
+		title: "VCs discover verified dealflow",
+		desc: "Investors tap into the intelligence layer to source startups based on actual operational data and traction, bypassing the noise of traditional pitch decks.",
 	},
 ];
 

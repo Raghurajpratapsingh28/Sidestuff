@@ -99,7 +99,7 @@ export const achiveItems = [
       id: 1,
       title1: ["200+"],
       title2: ["$150M+"],
-      subTitle1: "Live Startup Ecosystems",
+      subTitle1: "Startups Running on Katagoge",
       subTitle2: "Funding raised through execution signal",
    },
    {

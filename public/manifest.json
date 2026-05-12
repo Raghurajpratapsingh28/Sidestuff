@@ -1,7 +1,7 @@
 {
   "name": "Katagoge",
   "short_name": "Katagoge",
-  "description": "Katagoge is a live startup ecosystem where founders, contributors, and investors connect through real execution.",
+  "description": "Katagoge is the execution infrastructure for early-stage startups, connecting founders and investors through operational data.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f1f1f1",

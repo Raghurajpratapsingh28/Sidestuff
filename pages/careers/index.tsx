@@ -12,12 +12,12 @@ export default function CareersPage() {
 
 	const metadata = {
 			title: "Careers | Join Katagoge",
-			description: "Join Katagoge and help build the live startup ecosystem where founders, contributors, and investors connect through real execution. Explore career opportunities.",
+			description: "Join Katagoge and help build the execution infrastructure for early-stage startups where founders and investors connect through real execution. Explore career opportunities.",
 		canonical: `${SITE_CONFIG.url}/careers`,
 		keywords: [
 			"careers",
 			"jobs at Katagoge",
-				"startup ecosystem jobs",
+				"execution infrastructure jobs",
 				"early stage startup careers",
 				"join Katagoge team",
 				"work at Katagoge"

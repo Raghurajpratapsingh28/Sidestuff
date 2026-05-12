@@ -152,13 +152,13 @@ export default function About() {
 								variants={fade}
 							>
 								<h2 className="font-NeueMontreal font-medium tracking-tight text-[42px] sm:text-[30px] xm:text-[26px] md:text-[48px] lg:text-[3vw] xl:text-[3.2vw] leading-[1.1]" style={{ color: "#102c26" }}>
-									A live startup ecosystem.
+									Run your company.
 								</h2>
 								<h2 className="font-NeueMontreal font-medium text-[#212121]/25 tracking-tight text-[42px] sm:text-[30px] xm:text-[26px] md:text-[48px] lg:text-[3vw] xl:text-[3.2vw] leading-[1.1] mt-2">
-									Built on contribution.
+									Source high-signal deals.
 								</h2>
 								<p className="text-[#212121]/65 font-NeueMontreal text-[17px] sm:text-[15px] xm:text-[14px] leading-[1.75] mt-8 sm:mt-6 xm:mt-5 max-w-[460px]">
-									Katagoge connects every role that startups actually need — and gives visibility to those who show up and do the work.
+									Katagoge provides execution infrastructure for founders to build their startups, while offering an intelligence layer for VCs to discover teams with real traction. The network is just a byproduct.
 								</p>
 
 								{/* Quote */}

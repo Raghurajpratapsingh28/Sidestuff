@@ -37,7 +37,7 @@ export default function Footer() {
 							Katagoge — Where founders build teams, contributors gain experience, and investors discover execution.
 						</p>
 						<p className="paragraph font-NeueMontreal text-secondry opacity-50 mb-10 sm:mb-8 xm:mb-6 leading-relaxed">
-							Katagoge is a live startup ecosystem and execution engine. Connect with real teams, track milestones, and turn work into visible signal for founders, contributors, and investors.
+							Katagoge is the execution infrastructure for early-stage startups. Run your operations, track milestones natively, and turn real work into verified signal for VCs to discover.
 						</p>
 						
 						<div className="flex flex-col gap-y-[10px]">
@@ -141,7 +141,7 @@ export default function Footer() {
 						</div>
 					<div>
 						<p className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-							Built with ❤ in Vancouver
+							Engineered in Vancouver
 						</p>
 					</div>
 				</div>

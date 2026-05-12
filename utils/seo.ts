@@ -6,7 +6,7 @@
 export const SITE_CONFIG = {
   name: "Katagoge",
   url: "https://Katagoge.com",
-  description: "Katagoge is a live startup ecosystem where founders, contributors, and investors connect to build real products. Execution and collaboration define visibility, not pitch decks.",
+  description: "Katagoge is the execution infrastructure for early-stage startups. Founders use it to run their companies, while investors leverage our dealflow intelligence to find high-signal teams.",
   ogImage: "/og-image.jpg",
   twitterHandle: "@Katagoge",
   foundingYear: "2026",

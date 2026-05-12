@@ -15,8 +15,8 @@ export default function Home() {
 
 	// SEO Metadata
 	const metadata = {
-		title: "Katagoge | Live Startup Ecosystem & Execution Engine",
-		description: "Katagoge is a live startup ecosystem where startups are actively built by real teams. Join the waitlist to connect founders, contributors, and investors through execution, collaboration, and real work.",
+		title: "Katagoge | Execution Infrastructure & VC Dealflow Intelligence",
+		description: "Katagoge is the execution infrastructure for early-stage startups. Founders use it to run their company, and VCs use our intelligence layer to source deals based on real execution and traction.",
 		canonical: SITE_CONFIG.url,
 		keywords: [
 			"Katagoge",
@@ -54,10 +54,10 @@ export default function Home() {
 			}
 		]),
 		generateHowToSchema([
-			{ name: "A founder creates a startup", text: "Not a listing. A live project with defined roles, goals, and a team structure. The startup exists to be built — not to collect followers." },
-			{ name: "Contributors apply by role", text: "Developers, marketers, analysts, designers, and business contributors request to join based on what the startup actually needs. Every role counts." },
-			{ name: "Work happens in the open", text: "Milestones are tracked. Contributions are logged. Execution builds each startup's visibility — not follower counts or pitch scores." },
-			{ name: "Investors see what's real", text: "Deal flow surfaces through activity. Investors watch teams execute, assess team depth, and reach out when the signal is right." }
+			{ name: "Founders build their operating system", text: "Startups use Katagoge to run their daily operations, define goals, and structure their execution. It's the infrastructure where real work happens." },
+			{ name: "Teams execute on milestones", text: "Every sprint, commit, and operational win is logged. The platform tracks progress natively, capturing the velocity of the startup without manual reporting." },
+			{ name: "The intelligence layer analyzes traction", text: "Our systems measure execution velocity, team efficiency, and milestone completion to build a high-signal profile of the startup's health and momentum." },
+			{ name: "VCs discover verified dealflow", text: "Investors tap into the intelligence layer to source startups based on actual operational data and traction, bypassing the noise of traditional pitch decks." }
 		], "How Katagoge Works", "A four-step process to build startups through real execution and collaboration on the Katagoge platform.")
 	];
 

@@ -36,9 +36,9 @@ export default function Hero() {
 					className="text-center w-full max-w-[820px] mb-[20px] sm:mb-[16px] xm:mb-[14px]"
 				>
 					<h1 className="font-NeueMontreal font-semibold text-[#212121] tracking-[-2.5px] sm:tracking-[-1.5px] xm:tracking-[-1px] text-[76px] leading-[1] lg:text-[64px] md:text-[52px] sm:text-[40px] xm:text-[32px]">
-						Startups are built here.
+						Where startups run.
 						<br />
-						<span className="text-[#212121]/35">Not listed.</span>
+						<span className="text-[#212121]/35">Where investors find them.</span>
 					</h1>
 				</motion.div>
 
@@ -49,7 +49,7 @@ export default function Hero() {
 					transition={{ duration: 0.65, delay: 0.22, ease: [0.22, 1, 0.36, 1] }}
 					className="text-center font-NeueMontreal text-[#212121]/70 mb-[36px] sm:mb-[28px] xm:mb-[24px] text-[18px] leading-[28px] lg:text-[17px] lg:leading-[27px] md:text-[16px] md:leading-[26px] sm:text-[15px] sm:leading-[24px] xm:text-[14px] xm:leading-[22px] max-w-[580px] sm:max-w-[90%] xm:max-w-[100%]"
 				>
-					Katagoge is a live ecosystem where startups are actively built by real teams. We connect founders, contributors, and investors through execution, collaboration, and real work — not pitch decks.
+					Katagoge is the execution infrastructure for early-stage startups. Founders use it to run their companies, and VCs use our intelligence layer to source deals based on real execution — not pitch decks.
 				</motion.p>
 
 				{/* CTA */}
